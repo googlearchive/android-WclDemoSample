@@ -1,13 +1,14 @@
 # WclDemoSample
-* This is a sample app that shows how one can set up an application to use the
-  WearCompanionLibrary. It has both a phone and a wear component.
-  You can drive this sample from either your phone or your wear device. On your mobile, select
-  a page from the drawer and there, you can open the corresponding page on your
-  wear device by pressing on the FAB button at the lower right corner of the page. On your
-  wear device, you can select an item form the list when you run the app. Features
-  shown includes exchanging data, launching remote app, making HTTP calls from the wear
-  device and showing variations of WearableListView activities. Note that on your mobile phone you
-  have to be on page corresponding to the wear page to be able to see the feature.
+This is a sample app that shows how one can set up an application to use the
+WearCompanionLibrary. It has both a phone and a wear component. On your mobile, select
+a page from the drawer and there, you can open the corresponding page on your
+wear device by pressing on the FAB button at the lower right corner of the page. On your
+wear device, you can select an item form the list when you run the app. Features
+shown here include exchanging data, launching remote app, making HTTP calls from the wear
+device, showing variations of WearableListView activities and recording voice on the wear
+and streaming that to the mobile device and playing it there in real-time. In order for
+each feature to work properly, you have to be on that feature's page on both the mobile app
+and the wear app at the same time.
 
 ## Dependencies
 * [WearCompanionLibrary (WCL)](https://github.com/googlesamples/android-WearCompanionLibrary)
@@ -18,17 +19,24 @@
 
 ## Setup
 * Checkout this project as WclDemoSample:
-  $ git clone https://github.com/googlesamples/android-WclDemoSample WclDemoSample
-* Checkout WCL as a sibling to this project:
-  $ git clone https://github.com/googlesamples/android-WearCompanionLibrary WearCompanionLibrary
+```
+$ git clone https://github.com/googlesamples/android-WclDemoSample.git WclDemoSample
+```
+* Checkout WCL as a sibling to this project under the name WearCompanionLibrary:
+```
+$ git clone https://github.com/googlesamples/android-WearCompanionLibrary.git WearCompanionLibrary
+```
 * To make sure all is working, compile WCL:
-  $ cd WearCompanionLibrary && ./gradlew build
-  This should successfully compile WCL.
+```
+$ cd WearCompanionLibrary && ./gradlew build
+```
 * Compile this project:
-  $ cd ../WclDemoSample && ./gradlew build
+```
+$ cd ../WclDemoSample && ./gradlew build
+```
 * To open the project in Android Studio, you may need to first open the WCL project in Android Studio
   to build the required "*.iml" file for Android Studio. To do this, start Android Studio and select "Open An Existing
-  Android Studio Project" and navigate to WCL directory and select the build.gradle in the root of
+  Android Studio Project" and navigate to WearCompanionLibrary directory and select the build.gradle in the root of
   that project. This should create the needed files.
 * Close Android Studio and open that again and follow the same steps but this time navigate to
   WclDemoSample project and select build.gradle there.
