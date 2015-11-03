@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ imitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">WCL Demo</string>
+
+    <string name="list_dialog">List Dialog</string>
+    <string name="launch_mobile">Launch on Mobile</string>
+    <string name="no_node_available">No node found!</string>
+    <string name="failed_to_transfer_bytes">Failed to transfer bytes!</string>
+
+    <!-- Stock Activity -->
+    <string name="error_timeout">Request timed out</string>
+    <string name="error_request_failed">Request failed</string>
+    <string name="symbol">Symbol:</string>
+    <string name="value">Value:</string>
+    <string name="time">Time:</string>
+    <string name="submit">Get Price</string>
+    <string name="failed_to_launch">Failed to launch the app on the mobile device</string>
+    <string name="data_exchange_intro">Follow mobile page navigation</string>
+    <string name="page_intro">Introduction</string>
+    <string name="stream_voice">Stream Voice</string>
+
+    <!-- Voice Streaming Activity -->
+    <string name="exiting_for_permission">Recording Audio permission is required, exiting now!</string>
+
+
+</resources>

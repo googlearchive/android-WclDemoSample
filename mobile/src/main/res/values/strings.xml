@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2015 Google Inc. All Rights Reserved.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ imitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">WCL Demo Sample</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_open_on_watch">Open On Watch</string>
+    <string name="nav_open_main_menu">Intro</string>
+    <string name="clear_text">Clear Text</string>
+    <string name="clear_image">Clear Image</string>
+    <string name="text_file_here">Transferred text file will appear here ...</string>
+    <string name="intro">This sample demonstrates how you can perform a network http request from
+        your wearable device, using your paired phone. Click on the button below to lunch the
+        app on your paired wearable device.
+    </string>
+    <string name="api_client_not_connected">Google Api Client is not connected!</string>
+    <string name="no_wearable_device">No wearable device with the requested capability was found!
+    </string>
+    <string name="failed_to_launch_wear_app">Failed to launch the wearable app!</string>
+    <string name="main_intro">A simple app to demonstrate some of the features in the Wear Companion
+        Library. You can drive this from both your phone or your wear device. On your mobile, select
+        a page from the drawer.\n\nOn any mobile page, you can open the corresponding page on your
+        wear device by pressing on the FAB button at the lower right corner of the page.
+    </string>
+    <string name="data_exchange_intro">Below we track the information about the page that the wear
+        app is currently showing. As you navigate through the wear app, the information below will
+        change using the MessageApi calls.
+    </string>
+    <string name="voice_intro">You can listen to the MIC output streamed frm your wear device
+    </string>
+    <string name="nav_open_voice_stream">Voice Stream</string>
+    <string name="voice_stream_ended">Incoming Voice Ended</string>
+    <string name="voice_stream_started">Incoming Voice Started</string>
+</resources>

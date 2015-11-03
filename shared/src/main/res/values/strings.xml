@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WCL Demo Sample</string>
+
+    <string name="page_data_exchange">Data Exchange</string>
+    <string name="page_file_transfer">File Transfer</string>
+    <string name="page_stock">Stock Price</string>
+    <string name="page_list">Main List</string>
+    <string name="page_list_dialog">List Dialog</string>
+    <string name="page_stream_voice">Stream Voice</string>
+    <string name="page_navigation_info">Currently on %1$s page</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="nav_open_stock">Stock Price</string>
+    <string name="nav_open_file_transfer">File Transfer</string>
+    <string name="nav_open_data_exchange">Data Exchange</string>
+</resources>
